@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+    background: #f59b1A;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    background: url('')no-repeat;
+    text-decoration: none;
+    color: #f59b1A;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .center .title{
+    padding-top: 50px;
+    text-align: center;
+    color: #000000;
+    font-size: 55px;
+    font-weight: 600;
+  }
+
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #FFD263;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .container {
+    padding: 80px;
+  }
+  
+  span.psw {
+    text-align: right;    
+  }
+  footer {
+    text-align: center;
+    padding: 13px;
+    background-color: #FFD263;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
