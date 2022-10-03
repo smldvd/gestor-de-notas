@@ -1,4 +1,9 @@
-var notas=parseInt(document.getElementById("cantidad_notas"))
-for(i=0; i<notas; i++){
+var notas=null;
+var datos 
+function sub(){
+    notas =  document.getElementsByName("nnotas");
+
+    for (i=0;i<notas;i++){
 
 }
+ }
