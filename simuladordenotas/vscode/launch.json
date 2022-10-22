@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SimuladordenotasApplication<simuladordenotas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "simulador_notas.simuladordenotas.SimuladordenotasApplication",
+            "projectName": "simuladordenotas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
